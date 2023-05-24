@@ -103,6 +103,7 @@ namespace Tanks {
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->pictureBox1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
+			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->KeyPreview = true;
 			this->Name = L"SplashScreen";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
@@ -114,7 +115,7 @@ namespace Tanks {
 
 		}
 #pragma endregion
-	private: Image^ image = Image::FromFile("D:\\study\\программирование\\курсовая\\six-piece\\six-piece0.png");
+	private: Image^ image = Image::FromFile("six-piece0.png");
 	private: int indextime = 0;
 	private: int rotationAngle = 0;
 	private: bool times;

@@ -130,13 +130,13 @@ System::Void Tanks::registration::pictureBox1_Click(System::Object^ sender, Syst
 	{
 		// Если символы скрыты, показываем их
 		textBox2->UseSystemPasswordChar = false;
-		pictureBox1->Image = Image::FromFile("D:\\study\\программирование\\курсовая\\eye2.png");
+		pictureBox1->Image = Image::FromFile("eye2.png");
 	}
 	else
 	{
 		// Если символы уже видимы, скрываем их
 		textBox2->UseSystemPasswordChar = true;
-		pictureBox1->Image = Image::FromFile("D:\\study\\программирование\\курсовая\\eye1.png");
+		pictureBox1->Image = Image::FromFile("eye1.png");
 	}
 }
 //нажатие на пикчербокс чтобы скртить/показать пароль
@@ -146,13 +146,13 @@ System::Void Tanks::registration::pictureBox2_Click(System::Object^ sender, Syst
 	{
 		// Если символы скрыты, показываем их
 		textBox3->UseSystemPasswordChar = false;
-		pictureBox2->Image = Image::FromFile("D:\\study\\программирование\\курсовая\\eye2.png");
+		pictureBox2->Image = Image::FromFile("eye2.png");
 	}
 	else
 	{
 		// Если символы уже видимы, скрываем их
 		textBox3->UseSystemPasswordChar = true;
-		pictureBox2->Image = Image::FromFile("D:\\study\\программирование\\курсовая\\eye1.png");
+		pictureBox2->Image = Image::FromFile("eye1.png");
 	}
 }
 //наведение мыши на кнопку

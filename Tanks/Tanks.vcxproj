@@ -203,34 +203,29 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\3.png" />
-    <Image Include="..\..\autotoreg.png" />
-    <Image Include="..\..\breakwall.jpg" />
-    <Image Include="..\..\bullet.png" />
-    <Image Include="..\..\cannon_weapons_tank_war_icon_219257.ico" />
-    <Image Include="..\..\down.png" />
-    <Image Include="..\..\down2.png" />
-    <Image Include="..\..\eye1.png" />
-    <Image Include="..\..\eye2.png" />
-    <Image Include="..\..\hp.png" />
-    <Image Include="..\..\left.png" />
-    <Image Include="..\..\left2.png" />
-    <Image Include="..\..\maintochoose.png" />
-    <Image Include="..\..\powershoot.png" />
-    <Image Include="..\..\right.png" />
-    <Image Include="..\..\right2.png" />
-    <Image Include="..\..\six-piece0.png" />
-    <Image Include="..\..\six-piece1.png" />
-    <Image Include="..\..\six-piece2.png" />
-    <Image Include="..\..\six-piece3.png" />
-    <Image Include="..\..\six-piece4.png" />
-    <Image Include="..\..\speedshoot.png" />
-    <Image Include="..\..\stopwall.jpg" />
-    <Image Include="..\..\up.png" />
-    <Image Include="..\..\up2.png" />
+    <None Include="base.bin" />
+    <None Include="info.chm" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\information\info.chm" />
+    <Image Include="3.png" />
+    <Image Include="breakwall.jpg" />
+    <Image Include="bullet.png" />
+    <Image Include="cannon_weapons_tank_war_icon_219257.ico" />
+    <Image Include="down.png" />
+    <Image Include="down2.png" />
+    <Image Include="eye1.png" />
+    <Image Include="eye2.png" />
+    <Image Include="hp.png" />
+    <Image Include="left.png" />
+    <Image Include="left2.png" />
+    <Image Include="powershoot.png" />
+    <Image Include="right.png" />
+    <Image Include="right2.png" />
+    <Image Include="six-piece0.png" />
+    <Image Include="speedshoot.png" />
+    <Image Include="stopwall.jpg" />
+    <Image Include="up.png" />
+    <Image Include="up2.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

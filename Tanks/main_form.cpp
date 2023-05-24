@@ -201,5 +201,5 @@ System::Void Tanks::main_form::about(System::Object^ sender, System::EventArgs^ 
 //нажатие на кнопку справка
 System::Void Tanks::main_form::info(System::Object^ sender, System::EventArgs^ e)
 {
-	Help::ShowHelp(this, "D:\\study\\программирование\\курсовая\\information\\info.chm");
+	Help::ShowHelp(this, "info.chm");
 }

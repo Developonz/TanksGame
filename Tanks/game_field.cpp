@@ -40,34 +40,34 @@ void Tanks::game_field::startgame()
         else 
             Bullet::bulletspeed = complexity == 1 || complexity == 2 ? 15 : 10;
 
-        generate(20, 3, 8, 11, "D:\\study\\программирование\\курсовая\\breakwall.jpg", Point(725, 60), 1);
-        generate(3, 2, 7, 10, "D:\\study\\программирование\\курсовая\\breakwall.jpg", Point(455, 315), 1);
-        generate(3, 2, 7, 10, "D:\\study\\программирование\\курсовая\\breakwall.jpg", Point(1035, 315), 1);
-        generate(12, 1, 5, 6, "D:\\study\\программирование\\курсовая\\stopwall.jpg", Point(625, 180), 2);
-        generate(12, 1, 5, 6, "D:\\study\\программирование\\курсовая\\stopwall.jpg", Point(885, 180), 2);
-        generate(1, 7, 7, 6, "D:\\study\\программирование\\курсовая\\stopwall.jpg", Point(335, 225), 2);
-        generate(1, 7, 7, 6, "D:\\study\\программирование\\курсовая\\stopwall.jpg", Point(335, 465), 2);
-        generate(1, 7, 7, 6, "D:\\study\\программирование\\курсовая\\stopwall.jpg", Point(990, 225), 2);
-        generate(1, 7, 7, 6, "D:\\study\\программирование\\курсовая\\stopwall.jpg", Point(990, 465), 2);
-        generate(5, 2, 7, 10, "D:\\study\\программирование\\курсовая\\breakwall.jpg", Point(395, 45), 1);
-        generate(5, 2, 7, 10, "D:\\study\\программирование\\курсовая\\breakwall.jpg", Point(395, 525), 1);
-        generate(5, 2, 7, 10, "D:\\study\\программирование\\курсовая\\breakwall.jpg", Point(1095, 45), 1);
-        generate(5, 2, 7, 10, "D:\\study\\программирование\\курсовая\\breakwall.jpg", Point(1095, 525), 1);
+        generate(20, 3, 8, 11, "breakwall.jpg", Point(725, 60), 1);
+        generate(3, 2, 7, 10, "breakwall.jpg", Point(455, 315), 1);
+        generate(3, 2, 7, 10, "breakwall.jpg", Point(1035, 315), 1);
+        generate(12, 1, 5, 6, "stopwall.jpg", Point(625, 180), 2);
+        generate(12, 1, 5, 6, "stopwall.jpg", Point(885, 180), 2);
+        generate(1, 7, 7, 6, "stopwall.jpg", Point(335, 225), 2);
+        generate(1, 7, 7, 6, "stopwall.jpg", Point(335, 465), 2);
+        generate(1, 7, 7, 6, "stopwall.jpg", Point(990, 225), 2);
+        generate(1, 7, 7, 6, "stopwall.jpg", Point(990, 465), 2);
+        generate(5, 2, 7, 10, "breakwall.jpg", Point(395, 45), 1);
+        generate(5, 2, 7, 10, "breakwall.jpg", Point(395, 525), 1);
+        generate(5, 2, 7, 10, "breakwall.jpg", Point(1095, 45), 1);
+        generate(5, 2, 7, 10, "breakwall.jpg", Point(1095, 525), 1);
 
-        generate(5, 1, 5, 6, "D:\\study\\программирование\\курсовая\\stopwall.jpg", Point(tanks_field->Width - 70, 280), 2);
-        generate(1, 2, 1, 6, "D:\\study\\программирование\\курсовая\\stopwall.jpg", Point(tanks_field->Width - 190, 400), 2);
-        generate(4, 1, 2, 2, "D:\\study\\программирование\\курсовая\\stopwall.jpg", Point(tanks_field->Width - 190, 280), 2);
-        generate(1, 1, 1, 6, "D:\\study\\программирование\\курсовая\\breakwall.jpg", Point(tanks_field->Width - 190, 340), 1);
-        generate(1, 3, 1, 6, "D:\\study\\программирование\\курсовая\\breakwall.jpg", Point(tanks_field->Width - 160, 280), 1);
-        generate(1, 2, 1, 6, "D:\\study\\программирование\\курсовая\\breakwall.jpg", Point(tanks_field->Width - 130, 400), 1);
+        generate(5, 1, 5, 6, "stopwall.jpg", Point(tanks_field->Width - 70, 280), 2);
+        generate(1, 2, 1, 6, "stopwall.jpg", Point(tanks_field->Width - 190, 400), 2);
+        generate(4, 1, 2, 2, "stopwall.jpg", Point(tanks_field->Width - 190, 280), 2);
+        generate(1, 1, 1, 6, "breakwall.jpg", Point(tanks_field->Width - 190, 340), 1);
+        generate(1, 3, 1, 6, "breakwall.jpg", Point(tanks_field->Width - 160, 280), 1);
+        generate(1, 2, 1, 6, "breakwall.jpg", Point(tanks_field->Width - 130, 400), 1);
 
 
-        generate(5, 1, 5, 6, "D:\\study\\программирование\\курсовая\\stopwall.jpg", Point(40, 280), 2);
-        generate(1, 2, 1, 6, "D:\\study\\программирование\\курсовая\\stopwall.jpg", Point(130, 280), 2);
-        generate(4, 1, 1, 1, "D:\\study\\программирование\\курсовая\\stopwall.jpg", Point(160, 310), 2);
-        generate(1, 1, 1, 6, "D:\\study\\программирование\\курсовая\\breakwall.jpg", Point(160, 340), 1);
-        generate(1, 3, 1, 6, "D:\\study\\программирование\\курсовая\\breakwall.jpg", Point(70, 400), 1);
-        generate(1, 2, 1, 6, "D:\\study\\программирование\\курсовая\\breakwall.jpg", Point(70, 280), 1);
+        generate(5, 1, 5, 6, "stopwall.jpg", Point(40, 280), 2);
+        generate(1, 2, 1, 6, "stopwall.jpg", Point(130, 280), 2);
+        generate(4, 1, 1, 1, "stopwall.jpg", Point(160, 310), 2);
+        generate(1, 1, 1, 6, "breakwall.jpg", Point(160, 340), 1);
+        generate(1, 3, 1, 6, "breakwall.jpg", Point(70, 400), 1);
+        generate(1, 2, 1, 6, "breakwall.jpg", Point(70, 280), 1);
         firstgame = false;
     }
     else
@@ -313,15 +313,15 @@ void Tanks::game_field::genbonus()
     switch (selec)
     {
     case 1:
-        bonus->Image = Image::FromFile("D:\\study\\программирование\\курсовая\\hp.png");
+        bonus->Image = Image::FromFile("hp.png");
         obstacles[bonus->Location.Y / 10 - 1, bonus->Location.X / 10 - 1]->presence = 4;
         break;
     case 2:
-        bonus->Image = Image::FromFile("D:\\study\\программирование\\курсовая\\speedshoot.png");
+        bonus->Image = Image::FromFile("speedshoot.png");
         obstacles[bonus->Location.Y / 10 - 1, bonus->Location.X / 10 - 1]->presence = 5;
         break;
     case 3:
-        bonus->Image = Image::FromFile("D:\\study\\программирование\\курсовая\\powershoot.png");
+        bonus->Image = Image::FromFile("powershoot.png");
         obstacles[bonus->Location.Y / 10 - 1, bonus->Location.X / 10 - 1]->presence = 6;
         break;
     }

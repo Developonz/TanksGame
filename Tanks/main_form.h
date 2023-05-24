@@ -579,7 +579,7 @@ namespace Tanks {
 			// 
 			// helpProvider1
 			// 
-			this->helpProvider1->HelpNamespace = L"D:\\study\\программирование\\курсовая\\information\\info.chm";
+			this->helpProvider1->HelpNamespace = L"D:\\study\\программирование\\курсовая\\Tanks\\Tanks\\info.chm";
 			// 
 			// main_form
 			// 
@@ -615,6 +615,7 @@ namespace Tanks {
 			this->panel2->PerformLayout();
 			this->ResumeLayout(false);
 			this->PerformLayout();
+
 		}
 #pragma endregion
 

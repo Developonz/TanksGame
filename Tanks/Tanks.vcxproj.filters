@@ -61,83 +61,70 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\down.png">
+    <None Include="base.bin">
       <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\left.png">
+    </None>
+    <None Include="info.chm">
       <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\right.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\up.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\cannon_weapons_tank_war_icon_219257.ico">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\3.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\breakwall.jpg">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\stopwall.jpg">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\bullet.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\down2.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\eye1.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\eye2.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\hp.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\left2.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\powershoot.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\right2.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\speedshoot.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\up2.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\six-piece0.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\six-piece1.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\six-piece2.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\six-piece3.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\six-piece4.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\autotoreg.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="..\..\maintochoose.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\information\info.chm" />
+    <Image Include="3.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="breakwall.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bullet.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="cannon_weapons_tank_war_icon_219257.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="down.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="down2.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="eye1.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="eye2.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="hp.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="left.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="left2.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="powershoot.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="right.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="right2.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="six-piece0.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="speedshoot.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="stopwall.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="up.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="up2.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
   </ItemGroup>
 </Project>

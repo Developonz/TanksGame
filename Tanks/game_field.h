@@ -494,6 +494,7 @@ namespace Tanks {
 			this->Controls->Add(this->all_elem_panel);
 			this->Cursor = System::Windows::Forms::Cursors::Default;
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
+			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->KeyPreview = true;
 			this->Name = L"game_field";
 			this->Text = L"game";
@@ -519,6 +520,7 @@ namespace Tanks {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			this->ResumeLayout(false);
+
 		}
 
 #pragma endregion
@@ -607,7 +609,7 @@ namespace Tanks {
 	public:
 		Bullet()
 		{
-			body->Image = Image::FromFile("D:\\study\\программирование\\курсовая\\bullet.png");
+			body->Image = Image::FromFile("bullet.png");
 			body->SizeMode = PictureBoxSizeMode::StretchImage;
 			body->Height = 25;
 			body->Width = 25;
@@ -628,10 +630,10 @@ namespace Tanks {
 		{
 			if (numbertank == 0)
 			{
-				rightbody = "D:\\study\\программирование\\курсовая\\right.png";
-				leftbody = "D:\\study\\программирование\\курсовая\\left.png";
-				upbody = "D:\\study\\программирование\\курсовая\\up.png";
-				downbody = "D:\\study\\программирование\\курсовая\\down.png";
+				rightbody = "right.png";
+				leftbody = "left.png";
+				upbody = "up.png";
+				downbody = "down.png";
 				body->Image = Image::FromFile(rightbody);
 				up = (Char)Keys::W;
 				down = (Char)Keys::S;
@@ -643,10 +645,10 @@ namespace Tanks {
 			}
 			else if (numbertank == 1)
 			{
-				rightbody = "D:\\study\\программирование\\курсовая\\right2.png";
-				leftbody = "D:\\study\\программирование\\курсовая\\left2.png";
-				upbody = "D:\\study\\программирование\\курсовая\\up2.png";
-				downbody = "D:\\study\\программирование\\курсовая\\down2.png";
+				rightbody = "right2.png";
+				leftbody = "left2.png";
+				upbody = "up2.png";
+				downbody = "down2.png";
 				body->Image = Image::FromFile(leftbody);
 				up = (Char)Keys::Up;
 				down = (Char)Keys::Down;
